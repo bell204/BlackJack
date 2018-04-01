@@ -6,6 +6,7 @@ public class Dealer implements User {
     private Stack<Card> cards;
     private boolean turn;
     private String name;
+    private int TotalPointOfCard;
     
     public Dealer() {
         cards = new Stack<Card>();
@@ -15,13 +16,27 @@ public class Dealer implements User {
 
     @Override
     public Stack<Card> receiveCard(Card card) {
-            this.cards.push(card);
+    	if(TotalPointOfCard()>16){
+    		System.out.println("17점 이상이므로 카드를 받을 수 없습니다.");
+    		
+    	}else{
+    	  	this.cards.push(card);
             this.checkCard();
-			return this.cards;
+			
+    	}
+    	return this.cards;
+  
      
     }
  
-    @Override
+    private int TotalPointOfCard() {
+    	for(Card card : cards){
+    		TotalPointOfCard+=card.symbol.getPoint();
+    	}
+		return TotalPointOfCard;
+	}
+
+	@Override
     public void checkCard(){
         StringBuilder sb = new StringBuilder();
         sb.append("현재 보유 카드 목록 \n");
@@ -67,11 +82,6 @@ public class Dealer implements User {
 	public Stack<Card> openCards() {
 		return this.cards;
 	}
-	
-	 
-
-
  
-
      
 }
