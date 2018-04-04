@@ -13,13 +13,24 @@ TDD를 하며 게임을 구현해보았습니다.
 
 <h2>테스트 순서</h2>
 
-1 실패하는 테스트 코드 (예시)
+1 실패하는 테스트 코드
 
 2 Test 결과 화면(빨강)
 
-3 테스트에 통과할만한 작은 코드 작성(예시)
+![13](https://user-images.githubusercontent.com/32535590/38289628-20b38cca-3812-11e8-92f9-418ff148af21.PNG)
 
-4 리팩토링 코드 (예시)
+
+3 테스트에 통과할만한 작은 코드 작성
+
+![10-3](https://user-images.githubusercontent.com/32535590/38289720-93c2ecec-3812-11e8-9f89-b0f0be021423.PNG)
+
+
+4 Test 성공 결과 화면 (초록)
+
+![10](https://user-images.githubusercontent.com/32535590/38289604-0369b392-3812-11e8-83eb-548a4cc00f65.PNG)
+
+
+5 리팩토링 코드 (예시)
 
  
 
