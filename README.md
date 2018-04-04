@@ -31,8 +31,17 @@ TDD를 하며 게임을 구현해보았습니다.
 
 
 5 리팩토링 코드 (예시)
+![4](https://user-images.githubusercontent.com/32535590/38292956-c0ca9f88-3820-11e8-980c-435e7cff21ad.PNG)
 
- 
+-> 매직넘버를 상수로 치환
+
+![5](https://user-images.githubusercontent.com/32535590/38292997-e1d6a26c-3820-11e8-900c-59838a76bd15.PNG)
+
+-> 기존 코드에서 매직넘버를 상수로 변경 
+
+![6](https://user-images.githubusercontent.com/32535590/38292998-e50256f2-3820-11e8-9275-24a756c69d1e.PNG)
+
+
 
 <h2>구현 과정</h2>
 
@@ -61,3 +70,4 @@ TDD를 하며 게임을 구현해보았습니다.
 <h2>참고자료</h2>
 
 1 테스트 주도 개발(채수원 저)
+2 자바로 배우는 리팩토링 입문(유키 히로시 저)
